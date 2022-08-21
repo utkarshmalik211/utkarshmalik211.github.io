@@ -48,10 +48,8 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               /docs/
+  - title:             GoLang
+    url:               /golang/
   - title:             About
     url:               /about/
 
@@ -86,13 +84,13 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/sidebar-bg.jpg
-accent_color:          rgb(79,177,186)
+accent_image:          /assets/img/side-bar.jpg
+accent_color:          rgba(26,26,29,255)
 
 # This is used for the `theme-color` meta tag,
 # which changes the background color of the browser UI in certain browsers.
 # Defaults to `accent_color`.
-theme_color:           rgb(25,55,71)
+theme_color:           rgba(39,39,39,255)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
@@ -278,7 +276,7 @@ hydejack:
   # This is an _experimental_ feature.
   # Only use if you know what Service Workers are and how they can impact your site!
   offline:
-    enabled:           false
+    enabled:           true
     cache_version:     13
     precache_assets:
       - /assets/img/swipe.svg
@@ -401,7 +399,7 @@ jekyll_compose:
         A short ~160 character description of your post for search engines,
         social media previews, etc.
       image:
-        path: /assets/img/sidebar-bg.jpg
+        path: /assets/img/side-bar.jpg
     posts:
       layout: post
       description: > 

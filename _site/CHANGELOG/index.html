@@ -33,7 +33,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
     
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>CHANGELOG | UM.dev</title>
-<meta name="generator" content="Jekyll v4.2.2" />
+<meta name="generator" content="Jekyll v3.9.2" />
 <meta property="og:title" content="CHANGELOG" />
 <meta name="author" content="Utkarsh Malik" />
 <meta property="og:locale" content="en" />
@@ -46,7 +46,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="CHANGELOG" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Utkarsh Malik"},"dateModified":"2022-08-14T19:16:50+05:30","description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"CHANGELOG","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"Utkarsh Malik"},"url":"http://localhost:4000/CHANGELOG/"}</script>
+{"@context":"https://schema.org","@type":"WebPage","author":{"@type":"Person","name":"Utkarsh Malik"},"description":"Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.","headline":"CHANGELOG","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"},"name":"Utkarsh Malik"},"url":"http://localhost:4000/CHANGELOG/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -56,7 +56,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 
 
 
-  <meta name="theme-color" content="rgb(25,55,71)">
+  <meta name="theme-color" content="rgba(39,39,39,255)">
 
 
 <meta charset="utf-8">
@@ -109,7 +109,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
   w._search = {
     DATA_URL: '/assets/sitedata.json?no-cache',
     STORAGE_KEY: 'mini-search/',
-    INDEX_KEY: 'index--2022-08-16T07:30:40+05:30',
+    INDEX_KEY: 'index--2022-08-21T14:16:34+05:30',
   };
   w._clapButton = true;
 }(window);</script>
@@ -133,7 +133,7 @@ Powered by Hydejack v9.1.6 <https://hydejack.com/>
 
   <style id="_pageStyle">
 
-html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);--accent-color-highlight: rgba(79,177,186,0.1);--accent-color-darkened: #409ba3;--theme-color: rgb(25,55,71)}
+html{--accent-color: rgba(26,26,29,255);--accent-color-faded: rgba(26,26,29,0.5);--accent-color-highlight: rgba(26,26,29,0.1);--accent-color-darkened: #080809;--theme-color: rgba(39,39,39,255)}
 
 </style>
 
@@ -493,7 +493,7 @@ html{--accent-color: rgb(79,177,186);--accent-color-faded: rgba(79,177,186,0.5);
     <p><img src="/assets/img/blog/9.1.0-3.png" alt="Download Buttons" class="border lead" width="1776" height="258" loading="lazy" /></p>
 
     <p>Add the following to the front matter. Note that the PDF needs to be pre-generated. 
-See <a href="/docs/basics/#downloads">the docs</a> for more.</p>
+See <a href="docs/basics.md#downloads">the docs</a> for more.</p>
 
     <div class="language-yml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># file: "resume.md"</span>
 <span class="na">buttons</span><span class="pi">:</span>
@@ -600,7 +600,7 @@ Set <code class="language-plaintext highlighter-rouge">invert_sidebar: true</cod
 <p class="heading post-date">July 6 2020</p>
 
 <ul>
-  <li>Changing app icons has been revamped. See <a href="/docs/config/#adding-custom-favicons-and-app-icons">this section</a> in the docs.</li>
+  <li>Changing app icons has been revamped. See <a href="./docs/config.md#adding-custom-favicons-and-app-icons">this section</a> in the docs.</li>
   <li>Changed default icons</li>
   <li>Changed default sidebar background</li>
   <li>Added <code class="language-plaintext highlighter-rouge">jekyll-compose</code> defaults to config file</li>
@@ -657,7 +657,7 @@ Set <code class="language-plaintext highlighter-rouge">invert_sidebar: true</cod
 <p class="heading post-date">July 6 2020</p>
 
 <ul>
-  <li>Changing app icons has been revamped. See <a href="/docs/config/#adding-custom-favicons-and-app-icons">this section</a> in the docs.</li>
+  <li>Changing app icons has been revamped. See <a href="./docs/config.md#adding-custom-favicons-and-app-icons">this section</a> in the docs.</li>
   <li>Changed default icons</li>
   <li>Changed default sidebar background</li>
   <li>Added <code class="language-plaintext highlighter-rouge">jekyll-compose</code> defaults to config file</li>
@@ -724,7 +724,7 @@ If you’ve set <code class="language-plaintext highlighter-rouge">image</code>s
 <ul>
   <li>CSS variables are now configurable via <code class="language-plaintext highlighter-rouge">_data/variables.yml</code>. While there are other ways to change them, this has the broadest reach across HTML (<code class="language-plaintext highlighter-rouge">img[sizes]</code> attribute!), CSS and JS.</li>
   <li>Many JS content features (such as <code class="language-plaintext highlighter-rouge">#</code> heading links) now work even when <code class="language-plaintext highlighter-rouge">hydejack.no_push_state</code> is enabled.</li>
-  <li>Linking to posts in the <code class="language-plaintext highlighter-rouge">home</code> and <code class="language-plaintext highlighter-rouge">post</code> layout now accept either paths or URLs. <a href="/docs/basics/#adding-related-posts-to-a-post">Read more</a>.</li>
+  <li>Linking to posts in the <code class="language-plaintext highlighter-rouge">home</code> and <code class="language-plaintext highlighter-rouge">post</code> layout now accept either paths or URLs. <a href="docs/basics.md#adding-related-posts-to-a-post">Read more</a>.</li>
   <li>The star icons in the resume layout can now be disabled via <code class="language-plaintext highlighter-rouge">no_skill_icons</code> and <code class="language-plaintext highlighter-rouge">no_language_icons</code>.</li>
   <li>Resume layout now supports the following keys: <code class="language-plaintext highlighter-rouge">born</code>, <code class="language-plaintext highlighter-rouge">citizenship</code>, and <code class="language-plaintext highlighter-rouge">maritalStatus</code>.</li>
   <li>PRO only: Added <code class="language-plaintext highlighter-rouge">hide_dates</code> option to disable showing blog post dates.</li>
@@ -753,7 +753,7 @@ The content of the page can be customized by creating <code class="language-plai
   <li>The content width is now larger across screen sizes (can be configured in <code class="language-plaintext highlighter-rouge">_sass/_variables.scss</code>)</li>
   <li>The link style has been changed to make picking accent colors easier for dark mode. It’s also possible to link images now without worrying about underlines.</li>
   <li>The amount of whitespace has been reduced. Previously it had been increased but it felt too much.</li>
-  <li>Added a <a href="/docs/writing/#adding-notes"><code class="language-plaintext highlighter-rouge">note</code> class</a> that succeeds the <code class="language-plaintext highlighter-rouge">message</code> for adding auxillary content. The <code class="language-plaintext highlighter-rouge">message</code> class still exists.</li>
+  <li>Added a <a href="docs/writing.md#adding-notes"><code class="language-plaintext highlighter-rouge">note</code> class</a> that succeeds the <code class="language-plaintext highlighter-rouge">message</code> for adding auxillary content. The <code class="language-plaintext highlighter-rouge">message</code> class still exists.</li>
   <li>The navbar buttons made to look more like buttons</li>
   <li>Dark mode colors have been toned down a bit</li>
   <li>Improved dark mode text rendering on macOS</li>
@@ -988,7 +988,7 @@ Note that this plugin will never run when building the site on GitHub Pages.</p>
   </li>
   <li>
     <p>Added experimental offline support via Service Workers. Use with care!
-For details, <a href="/docs/advanced/#enabling-offline-support">read the docs</a>.</p>
+For details, <a href="docs/advanced.md#enabling-offline-support">read the docs</a>.</p>
   </li>
   <li>
     <p>Added the <code class="language-plaintext highlighter-rouge">figure</code> CSS class, which allows images to have nicer-looking captions. E.g.</p>
@@ -1305,7 +1305,7 @@ Setting <code class="language-plaintext highlighter-rouge">scroll-table</code> o
   </li>
   <li>
     <p>Event names described in the scripting chapter have changed from <code class="language-plaintext highlighter-rouge">y-push-state-*</code> to <code class="language-plaintext highlighter-rouge">hy-push-state-*</code>,
-except <code class="language-plaintext highlighter-rouge">y-push-state-animationend</code>, which has been removed. See the <a href="/docs/scripts/#registering-push-state-event-listeners">docs</a> for more.</p>
+except <code class="language-plaintext highlighter-rouge">y-push-state-animationend</code>, which has been removed. See the <a href="docs/scripts.md#registering-push-state-event-listeners">docs</a> for more.</p>
   </li>
 </ul>
 
@@ -1538,7 +1538,7 @@ the exact same text as the title of the page they are linking, e.g. <code class=
   <li>Reduced building time during development.
 Roughly 50% of the time was spent rebuilding the inline CSS, which is now built once and included via <code class="language-plaintext highlighter-rouge">link</code> tag.
 Production builds still inlines CSS, so the building speed remains unchanged.
-For more on how to improve building speeds, <a href="/docs/writing/#a-word-on-building-speeds">see here</a>.</li>
+For more on how to improve building speeds, <a href="docs/writing.md#a-word-on-building-speeds">see here</a>.</li>
 </ul>
 
 <h3 id="design-4">Design</h3>
@@ -1757,7 +1757,7 @@ If you have a <code class="language-plaintext highlighter-rouge">font</code> ent
 making it easier for users to navigate through your collection and discover other projects.
 Also, it’s now possible to display larger (data-) tables that were previously cut off (especially on mobile devices).</p>
 
-<p>For more on how to add tables, see the new section in <a href="/docs/writing/">docs/writing</a>.</p>
+<p>For more on how to add tables, see the new section in <a href="docs/writing.md">docs/writing</a>.</p>
 
 <p>Smaller changes include a reduced usage of horizontal lines and a more “semantic” use of <code class="language-plaintext highlighter-rouge">hr</code> elements.
 Specifically, the semantics of the resume layout have been improved.</p>
@@ -1766,7 +1766,7 @@ Specifically, the semantics of the resume layout have been improved.</p>
 <ul>
   <li>Added “Other Projects” section to the bottom of the project layout (similar to “Related Posts”)</li>
   <li>Added CSS classes that make viewing larger (data-) tables possible</li>
-  <li>Added section on tables to <a href="/docs/writing/">docs/writing</a></li>
+  <li>Added section on tables to <a href="docs/writing.md">docs/writing</a></li>
   <li>Reduced use of <code class="language-plaintext highlighter-rouge">&lt;hr/&gt;</code> elements, using CSS borders instead.</li>
   <li>Improved semantic HTML of resume</li>
   <li>Follow favicon best practices and include example icons</li>
@@ -1806,7 +1806,7 @@ If an issue can’t be resolved, there’s now the option to disable push state 
   <li>Add <code class="language-plaintext highlighter-rouge">disable_push_state</code> option to <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
   <li>Add <code class="language-plaintext highlighter-rouge">disable_drawer</code> option to <code class="language-plaintext highlighter-rouge">_config.yml</code></li>
   <li>Rename syntax highlighting file to <code class="language-plaintext highlighter-rouge">syntax.scss</code></li>
-  <li>Added <a href="/docs/scripts/">chapter on third party scripts</a> to documentation</li>
+  <li>Added <a href="docs/scripts.md">chapter on third party scripts</a> to documentation</li>
 </ul>
 
 <h3 id="design-7">Design</h3>
@@ -1874,13 +1874,13 @@ If an issue can’t be resolved, there’s now the option to disable push state 
   <li>Added <code class="language-plaintext highlighter-rouge">redirect</code> layout</li>
 </ul>
 
-<p>See the <a href="/docs/upgrade/">the migration guide</a> for instructions on how to upgrade.</p>
+<p>See the <a href="docs/upgrade.md">the migration guide</a> for instructions on how to upgrade.</p>
 
 <h3 id="minor-3">Minor</h3>
 <ul>
   <li>The “accent” font (heading font) is now used for all headings. This gives the theme a “bolder” look and was necessary for the animation: link =&gt; heading.</li>
   <li>Changed default text font from “PT Serif” to “Noto Serif”.</li>
-  <li>Added <a href="/docs/writing/">CSS classes</a> for styling markdown content.</li>
+  <li>Added <a href="docs/writing.md">CSS classes</a> for styling markdown content.</li>
   <li>Links have a new style. They now always display an underline to make the choice of the link color less critical (darker colors were hard to distinguish from regular text).</li>
   <li>Made social media icons larger and easier to tap.</li>
   <li>Social media icons are now also part of the “about” sections of a post.</li>
@@ -2086,7 +2086,7 @@ Future versions might address this, but it is the currency in which loading spee
 
 
 
-<div class="sidebar-bg sidebar-overlay" style="background-color:rgb(25,55,71);background-image:url(/assets/img/sidebar-bg.jpg)"></div>
+<div class="sidebar-bg sidebar-overlay" style="background-color:rgba(39,39,39,255);background-image:url(/assets/img/side-bar.jpg)"></div>
 
     <div class="sidebar-sticky">
   <div class="sidebar-about">
@@ -2114,23 +2114,11 @@ Future versions might address this, but it is the currency in which loading spee
       <li>
         <a
           id="_drawer--opened"
-          href="/example/"
+          href="/golang/"
           class="sidebar-nav-item "
           
         >
-          Example
-        </a>
-      </li>
-    
-      
-      <li>
-        <a
-          
-          href="/docs/"
-          class="sidebar-nav-item "
-          
-        >
-          Documentation
+          GoLang
         </a>
       </li>
     
@@ -2264,7 +2252,15 @@ Future versions might address this, but it is the currency in which loading spee
     });
   });
 </script> -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TWY2324KVE"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
+  gtag('config', 'G-TWY2324KVE');
+</script>
 <!--
 Code for integrating CloudFlare's email protection with Hydejack's single page app loading.
 -->

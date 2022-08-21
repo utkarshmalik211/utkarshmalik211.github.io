@@ -4,7 +4,7 @@
   "short_name": "UM.dev",
   "description": "Hydejack is a boutique Jekyll theme for hackers, nerds, and academics, with a focus on personal sites that are meant to impress.",
   "start_url": "/?utm_source=homescreen",
-  "theme_color": "rgb(25,55,71)",
+  "theme_color": "rgba(39,39,39,255)",
   "background_color": "#fff",
   "orientation": "portrait",
   "display": "minimal-ui",
